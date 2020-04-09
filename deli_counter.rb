@@ -7,5 +7,7 @@ end
 def take_a_number(line, name)
 end
 
-def now_serving()
+def now_serving(line)
+  puts "Now serving #{line.first}"
+  line.shift()
 end
